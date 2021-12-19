@@ -24,8 +24,10 @@ github_username:  alanbort
 
 # Build settings
 markdown: kramdown
-theme: minima
+# theme: minima
+remote_theme: pages-themes/time-machine@v0.2.0
 plugins:
+  - jekyll-remote-theme # add this line to the plugins list if you already have one
   - jekyll-feed
 
 # Exclude from processing.
