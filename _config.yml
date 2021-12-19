@@ -17,23 +17,39 @@ title: Personal Blog
 email: alanbort@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Personal blog where I keep a record of my experiments and bad ideas (tm).
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://alanbort.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github_username:  alanbort
 
 # Build settings
 markdown: kramdown
-# theme: slate
+remote_theme: rundocs/jekyll-rtd-theme
+# theme: jekyll-theme-slate
 # https://github.com/rundocs/jekyll-rtd-theme
 # 
 # remote_theme: pages-themes/slate
-# remote_theme: rundocs/jekyll-rtd-theme
-remote_theme: pages-themes/midnight@v0.2.0
+# remote_theme: pages-themes/midnight@v0.2.0
 # remote_theme: rundocs/jekyll-rtd-theme@v2.0.10
+# remote_theme: rundocs/jekyll-rtd-theme
 plugins:
-  # - jekyll-remote-theme # add this line to the plugins list if you already have one
+  - jekyll-remote-theme # add this line to the plugins list if you already have one
   - jekyll-feed
+  - jemoji
+  - jekyll-avatar
+  - jekyll-mentions
+  - jekyll-coffeescript
+  - jekyll-default-layout
+  - jekyll-gist
+  - jekyll-github-metadata
+  - jekyll-optional-front-matter
+  - jekyll-paginate
+  - jekyll-readme-index
+  - jekyll-titles-from-headings
+  - jekyll-relative-links
+
+readme_index:
+  with_frontmatter: true
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
