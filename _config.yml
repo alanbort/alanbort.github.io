@@ -17,7 +17,7 @@ title: Personal Blog
 email: alanbort@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Personal blog where I keep a record of my experiments and bad ideas (tm).
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "https://alanbort.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github_username:  alanbort
