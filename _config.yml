@@ -25,7 +25,10 @@ github_username:  alanbort
 # Build settings
 markdown: kramdown
 # theme: minima
-remote_theme: pages-themes/time-machine@v0.2.0
+# https://github.com/rundocs/jekyll-rtd-theme
+# 
+# remote_theme: pages-themes/time-machine@v0.2.0
+remote_theme: rundocs/jekyll-rtd-theme@v2.0.10
 plugins:
   - jekyll-remote-theme # add this line to the plugins list if you already have one
   - jekyll-feed
