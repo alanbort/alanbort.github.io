@@ -1,5 +1,6 @@
 ---
-sort: 1
+sort: 3
+title: Personal Blog
 ---
 
 # Blog folder
